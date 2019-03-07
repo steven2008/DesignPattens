@@ -12,8 +12,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface DouFu : HuoGuoDecorator
 
-@property (nonatomic,assign) double discountPrice;
-
 @end
 
 NS_ASSUME_NONNULL_END
