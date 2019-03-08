@@ -1,0 +1,630 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F803B24223263B400A8506B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F803B23223263B400A8506B /* AppDelegate.m */; };
+		3F803B27223263B400A8506B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F803B26223263B400A8506B /* ViewController.m */; };
+		3F803B2A223263B400A8506B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F803B28223263B400A8506B /* Main.storyboard */; };
+		3F803B2C223263B600A8506B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F803B2B223263B600A8506B /* Assets.xcassets */; };
+		3F803B2F223263B600A8506B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F803B2D223263B600A8506B /* LaunchScreen.storyboard */; };
+		3F803B32223263B600A8506B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F803B31223263B600A8506B /* main.m */; };
+		3F803B3C223263B600A8506B /* BridgePatternDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F803B3B223263B600A8506B /* BridgePatternDemoTests.m */; };
+		3F803B47223263B600A8506B /* BridgePatternDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F803B46223263B600A8506B /* BridgePatternDemoUITests.m */; };
+		3F803B59223264FD00A8506B /* Lenovo.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F803B58223264FD00A8506B /* Lenovo.m */; };
+		3F803B5C2232650E00A8506B /* Dell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F803B5B2232650E00A8506B /* Dell.m */; };
+		3F803B5F2232651C00A8506B /* Shenzhou.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F803B5E2232651C00A8506B /* Shenzhou.m */; };
+		3F803B62223266F300A8506B /* DeskComputer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F803B61223266F300A8506B /* DeskComputer.m */; };
+		3F803B652232670200A8506B /* LaptopComputer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F803B642232670200A8506B /* LaptopComputer.m */; };
+		3F803B682232674C00A8506B /* PadComputer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F803B672232674C00A8506B /* PadComputer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F803B38223263B600A8506B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F803B17223263B400A8506B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F803B1E223263B400A8506B;
+			remoteInfo = BridgePatternDemo;
+		};
+		3F803B43223263B600A8506B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F803B17223263B400A8506B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F803B1E223263B400A8506B;
+			remoteInfo = BridgePatternDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F803B1F223263B400A8506B /* BridgePatternDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BridgePatternDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F803B22223263B400A8506B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3F803B23223263B400A8506B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3F803B25223263B400A8506B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3F803B26223263B400A8506B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3F803B29223263B400A8506B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F803B2B223263B600A8506B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F803B2E223263B600A8506B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F803B30223263B600A8506B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F803B31223263B600A8506B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3F803B37223263B600A8506B /* BridgePatternDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BridgePatternDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F803B3B223263B600A8506B /* BridgePatternDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BridgePatternDemoTests.m; sourceTree = "<group>"; };
+		3F803B3D223263B600A8506B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F803B42223263B600A8506B /* BridgePatternDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BridgePatternDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F803B46223263B600A8506B /* BridgePatternDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BridgePatternDemoUITests.m; sourceTree = "<group>"; };
+		3F803B48223263B600A8506B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F803B552232642300A8506B /* ComputerProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ComputerProtocol.h; sourceTree = "<group>"; };
+		3F803B562232643600A8506B /* BrandProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BrandProtocol.h; sourceTree = "<group>"; };
+		3F803B57223264FD00A8506B /* Lenovo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Lenovo.h; sourceTree = "<group>"; };
+		3F803B58223264FD00A8506B /* Lenovo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Lenovo.m; sourceTree = "<group>"; };
+		3F803B5A2232650E00A8506B /* Dell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dell.h; sourceTree = "<group>"; };
+		3F803B5B2232650E00A8506B /* Dell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dell.m; sourceTree = "<group>"; };
+		3F803B5D2232651C00A8506B /* Shenzhou.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Shenzhou.h; sourceTree = "<group>"; };
+		3F803B5E2232651C00A8506B /* Shenzhou.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Shenzhou.m; sourceTree = "<group>"; };
+		3F803B60223266F300A8506B /* DeskComputer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeskComputer.h; sourceTree = "<group>"; };
+		3F803B61223266F300A8506B /* DeskComputer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeskComputer.m; sourceTree = "<group>"; };
+		3F803B632232670200A8506B /* LaptopComputer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LaptopComputer.h; sourceTree = "<group>"; };
+		3F803B642232670200A8506B /* LaptopComputer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LaptopComputer.m; sourceTree = "<group>"; };
+		3F803B662232674C00A8506B /* PadComputer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PadComputer.h; sourceTree = "<group>"; };
+		3F803B672232674C00A8506B /* PadComputer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PadComputer.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F803B1C223263B400A8506B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F803B34223263B600A8506B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F803B3F223263B600A8506B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F803B16223263B400A8506B = {
+			isa = PBXGroup;
+			children = (
+				3F803B21223263B400A8506B /* BridgePatternDemo */,
+				3F803B3A223263B600A8506B /* BridgePatternDemoTests */,
+				3F803B45223263B600A8506B /* BridgePatternDemoUITests */,
+				3F803B20223263B400A8506B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F803B20223263B400A8506B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F803B1F223263B400A8506B /* BridgePatternDemo.app */,
+				3F803B37223263B600A8506B /* BridgePatternDemoTests.xctest */,
+				3F803B42223263B600A8506B /* BridgePatternDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F803B21223263B400A8506B /* BridgePatternDemo */ = {
+			isa = PBXGroup;
+			children = (
+				3F803B54223263E500A8506B /* Computer */,
+				3F803B22223263B400A8506B /* AppDelegate.h */,
+				3F803B23223263B400A8506B /* AppDelegate.m */,
+				3F803B25223263B400A8506B /* ViewController.h */,
+				3F803B26223263B400A8506B /* ViewController.m */,
+				3F803B28223263B400A8506B /* Main.storyboard */,
+				3F803B2B223263B600A8506B /* Assets.xcassets */,
+				3F803B2D223263B600A8506B /* LaunchScreen.storyboard */,
+				3F803B30223263B600A8506B /* Info.plist */,
+				3F803B31223263B600A8506B /* main.m */,
+			);
+			path = BridgePatternDemo;
+			sourceTree = "<group>";
+		};
+		3F803B3A223263B600A8506B /* BridgePatternDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F803B3B223263B600A8506B /* BridgePatternDemoTests.m */,
+				3F803B3D223263B600A8506B /* Info.plist */,
+			);
+			path = BridgePatternDemoTests;
+			sourceTree = "<group>";
+		};
+		3F803B45223263B600A8506B /* BridgePatternDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3F803B46223263B600A8506B /* BridgePatternDemoUITests.m */,
+				3F803B48223263B600A8506B /* Info.plist */,
+			);
+			path = BridgePatternDemoUITests;
+			sourceTree = "<group>";
+		};
+		3F803B54223263E500A8506B /* Computer */ = {
+			isa = PBXGroup;
+			children = (
+				3F803B552232642300A8506B /* ComputerProtocol.h */,
+				3F803B562232643600A8506B /* BrandProtocol.h */,
+				3F803B57223264FD00A8506B /* Lenovo.h */,
+				3F803B58223264FD00A8506B /* Lenovo.m */,
+				3F803B5A2232650E00A8506B /* Dell.h */,
+				3F803B5B2232650E00A8506B /* Dell.m */,
+				3F803B5D2232651C00A8506B /* Shenzhou.h */,
+				3F803B5E2232651C00A8506B /* Shenzhou.m */,
+				3F803B60223266F300A8506B /* DeskComputer.h */,
+				3F803B61223266F300A8506B /* DeskComputer.m */,
+				3F803B632232670200A8506B /* LaptopComputer.h */,
+				3F803B642232670200A8506B /* LaptopComputer.m */,
+				3F803B662232674C00A8506B /* PadComputer.h */,
+				3F803B672232674C00A8506B /* PadComputer.m */,
+			);
+			path = Computer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F803B1E223263B400A8506B /* BridgePatternDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F803B4B223263B600A8506B /* Build configuration list for PBXNativeTarget "BridgePatternDemo" */;
+			buildPhases = (
+				3F803B1B223263B400A8506B /* Sources */,
+				3F803B1C223263B400A8506B /* Frameworks */,
+				3F803B1D223263B400A8506B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BridgePatternDemo;
+			productName = BridgePatternDemo;
+			productReference = 3F803B1F223263B400A8506B /* BridgePatternDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F803B36223263B600A8506B /* BridgePatternDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F803B4E223263B600A8506B /* Build configuration list for PBXNativeTarget "BridgePatternDemoTests" */;
+			buildPhases = (
+				3F803B33223263B600A8506B /* Sources */,
+				3F803B34223263B600A8506B /* Frameworks */,
+				3F803B35223263B600A8506B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F803B39223263B600A8506B /* PBXTargetDependency */,
+			);
+			name = BridgePatternDemoTests;
+			productName = BridgePatternDemoTests;
+			productReference = 3F803B37223263B600A8506B /* BridgePatternDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3F803B41223263B600A8506B /* BridgePatternDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F803B51223263B600A8506B /* Build configuration list for PBXNativeTarget "BridgePatternDemoUITests" */;
+			buildPhases = (
+				3F803B3E223263B600A8506B /* Sources */,
+				3F803B3F223263B600A8506B /* Frameworks */,
+				3F803B40223263B600A8506B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F803B44223263B600A8506B /* PBXTargetDependency */,
+			);
+			name = BridgePatternDemoUITests;
+			productName = BridgePatternDemoUITests;
+			productReference = 3F803B42223263B600A8506B /* BridgePatternDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F803B17223263B400A8506B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = rockonterol;
+				TargetAttributes = {
+					3F803B1E223263B400A8506B = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					3F803B36223263B600A8506B = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 3F803B1E223263B400A8506B;
+					};
+					3F803B41223263B600A8506B = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 3F803B1E223263B400A8506B;
+					};
+				};
+			};
+			buildConfigurationList = 3F803B1A223263B400A8506B /* Build configuration list for PBXProject "BridgePatternDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F803B16223263B400A8506B;
+			productRefGroup = 3F803B20223263B400A8506B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F803B1E223263B400A8506B /* BridgePatternDemo */,
+				3F803B36223263B600A8506B /* BridgePatternDemoTests */,
+				3F803B41223263B600A8506B /* BridgePatternDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F803B1D223263B400A8506B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F803B2F223263B600A8506B /* LaunchScreen.storyboard in Resources */,
+				3F803B2C223263B600A8506B /* Assets.xcassets in Resources */,
+				3F803B2A223263B400A8506B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F803B35223263B600A8506B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F803B40223263B600A8506B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F803B1B223263B400A8506B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F803B5C2232650E00A8506B /* Dell.m in Sources */,
+				3F803B5F2232651C00A8506B /* Shenzhou.m in Sources */,
+				3F803B652232670200A8506B /* LaptopComputer.m in Sources */,
+				3F803B27223263B400A8506B /* ViewController.m in Sources */,
+				3F803B32223263B600A8506B /* main.m in Sources */,
+				3F803B59223264FD00A8506B /* Lenovo.m in Sources */,
+				3F803B24223263B400A8506B /* AppDelegate.m in Sources */,
+				3F803B62223266F300A8506B /* DeskComputer.m in Sources */,
+				3F803B682232674C00A8506B /* PadComputer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F803B33223263B600A8506B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F803B3C223263B600A8506B /* BridgePatternDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F803B3E223263B600A8506B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F803B47223263B600A8506B /* BridgePatternDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F803B39223263B600A8506B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F803B1E223263B400A8506B /* BridgePatternDemo */;
+			targetProxy = 3F803B38223263B600A8506B /* PBXContainerItemProxy */;
+		};
+		3F803B44223263B600A8506B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F803B1E223263B400A8506B /* BridgePatternDemo */;
+			targetProxy = 3F803B43223263B600A8506B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3F803B28223263B400A8506B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F803B29223263B400A8506B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F803B2D223263B600A8506B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F803B2E223263B600A8506B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F803B49223263B600A8506B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3F803B4A223263B600A8506B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F803B4C223263B600A8506B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = BridgePatternDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.BridgePatternDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F803B4D223263B600A8506B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = BridgePatternDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.BridgePatternDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3F803B4F223263B600A8506B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BridgePatternDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.BridgePatternDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BridgePatternDemo.app/BridgePatternDemo";
+			};
+			name = Debug;
+		};
+		3F803B50223263B600A8506B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BridgePatternDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.BridgePatternDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BridgePatternDemo.app/BridgePatternDemo";
+			};
+			name = Release;
+		};
+		3F803B52223263B600A8506B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BridgePatternDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.BridgePatternDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BridgePatternDemo;
+			};
+			name = Debug;
+		};
+		3F803B53223263B600A8506B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BridgePatternDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.BridgePatternDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BridgePatternDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F803B1A223263B400A8506B /* Build configuration list for PBXProject "BridgePatternDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F803B49223263B600A8506B /* Debug */,
+				3F803B4A223263B600A8506B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F803B4B223263B600A8506B /* Build configuration list for PBXNativeTarget "BridgePatternDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F803B4C223263B600A8506B /* Debug */,
+				3F803B4D223263B600A8506B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F803B4E223263B600A8506B /* Build configuration list for PBXNativeTarget "BridgePatternDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F803B4F223263B600A8506B /* Debug */,
+				3F803B50223263B600A8506B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F803B51223263B600A8506B /* Build configuration list for PBXNativeTarget "BridgePatternDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F803B52223263B600A8506B /* Debug */,
+				3F803B53223263B600A8506B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F803B17223263B400A8506B /* Project object */;
+}
